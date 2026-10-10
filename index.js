@@ -5,6 +5,7 @@ const port = 9090;
 
 app.get("/", (req, res) => {
     res.send("this is root path");
+    console.log("this path successfull");
 })
 
 app.listen(port, () => {
